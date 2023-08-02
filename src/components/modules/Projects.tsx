@@ -1,4 +1,3 @@
-import { register } from 'swiper/element/bundle';
 import { ProjectSwiper } from '../template/ProjectSwiper';
 
 import styles from "./Projects.module.scss";

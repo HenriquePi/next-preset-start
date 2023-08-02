@@ -40,7 +40,7 @@ export const Work = () => {
             <div>
               <ul>
                 <li> Increase production efficiency by analysing design patterns and building a component library</li>
-                <li> Improve site efficiency by developing in "mobile first" approach</li>
+                <li> Improve site efficiency by developing in &quot;mobile first&quot; approach</li>
                 <li>Utilized atomic design, BEM, and DRY principles to create clean and organized codebases ensuring
 maintainability and future scalability</li>
               </ul>
