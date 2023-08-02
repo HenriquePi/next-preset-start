@@ -115,7 +115,7 @@ p {
 
 .carousel .slider .slide .legend {
   background: rgb(var(--accent-glow-rgb));
-  color: white;
+  color: rgb(var(--foreground-rgb));
   opacity: 0.75;
   display: flex;
   align-items: center;
