@@ -1,0 +1,22 @@
+.wrapper {
+  background-color: rgb(var(--accent-rgb));
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: calc(var(--margin)/2) var(--margin);
+    gap: calc(var(--margin));
+    a {
+      display: flex;
+      align-items: center;
+      gap: calc(var(--margin)/3);
+      img {
+        filter: invert(99%) sepia(47%) saturate(0%) hue-rotate(104deg) brightness(113%) contrast(100%);
+      }
+    }
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+}
