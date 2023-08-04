@@ -11,7 +11,7 @@ export const Nav = () => {
           Skills
         </a>
         <a href="#experience">
-          Experience
+          Work
         </a>
         <a href="#projects">
           Projects

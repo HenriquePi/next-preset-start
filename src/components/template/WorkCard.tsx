@@ -37,7 +37,7 @@ export const WorkCard:React.FC<Props> = ({cardTitle, company, companyLink, descr
         {dateRange && <h4>{dateRange}</h4>}
       </div>
       {company && <h4><a href={companyLink} target="__blank" rel="noreferrer">{company}</a></h4>}
-      <div style={{maxHeight: (isDetailsOpen || !isExpandable) ? "100%" : "10rem", overflow: "hidden", position: "relative"}} className={isExpandable ? styles.center : styles.fill}>
+      <div style={{maxHeight: (isDetailsOpen || !isExpandable) ? "100%" : "10rem", overflow: "hidden"}} className={isExpandable ? styles.center : styles.fill}>
         {(!isDetailsOpen && isExpandable) && <div 
           className={styles.overlay}
         >

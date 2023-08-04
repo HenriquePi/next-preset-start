@@ -16,7 +16,10 @@ export const Headline = () => {
         />
       </div>
       <div className={styles.content}>
-        <h1>Fullstack Web Developer</h1>
+        <div>
+          <h2>Henrique Pinto</h2>
+          <h1>Fullstack Web Developer</h1>
+        </div>
         <div className={styles.quote}>
           &ldquo;
           I am a talented and ambitious developer, with a passion for learning and a desire to create.

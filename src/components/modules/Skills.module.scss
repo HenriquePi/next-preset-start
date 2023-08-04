@@ -16,6 +16,16 @@
     }
     
     gap: var(--gap);
+
+    .logo {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: fit-content;
+      width: fit-content;
+      display: flex;
+      padding: 1rem;
+    }
     .years {
       font-size: 6rem;
       text-align: center;
@@ -33,6 +43,7 @@
         line-height: 5rem;
         flex: 1 1 0;
       }
+
     }
   }
   .microCards {

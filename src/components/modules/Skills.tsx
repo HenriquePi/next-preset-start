@@ -1,13 +1,18 @@
 
 import { WorkCard } from './../template/WorkCard';
 
+import ReactLogo from "@/assets/icons/reactlogo.svg";
+import TypeScriptLogo from "@/assets/icons/ts-logo-128.svg";
+import NodeLogo from "@/assets/icons/nodejs-1-logo-svg-vector.svg";
+
 import styles from "./Skills.module.scss";
+import Image from 'next/image';
 // maybe include timeline line, that fills as you scroll
 export const Skills = () => {
   return (
     <div className={styles.wrapper}>
       <div id="skills" className="anchor"/>
-      <h1>Experience</h1>
+      <h1>Skills</h1>
       <div className={styles.cards}>
         {/* primary skills */}
         <WorkCard
@@ -15,6 +20,14 @@ export const Skills = () => {
           isExpanded
           description={
             <div className={styles.years}>
+              <div className={styles.logo}>
+                <Image 
+                  src={ReactLogo}
+                  alt="React Logo"
+                  width={50}
+                  height={50}
+                />
+              </div>
               <span/>
               <div>
               3
@@ -27,13 +40,23 @@ export const Skills = () => {
           cardTitle="TypeScript"
           isExpanded
           description={
-            <div className={styles.years}>
-              <span/>
-              <div>
-              3
+            <>
+              <div className={styles.logo}>
+                <Image
+                  src={TypeScriptLogo}
+                  alt="TypeScript Logo"
+                  width={50}
+                  height={50}
+                />
               </div>
-              <span>years</span>
-            </div>
+              <div className={styles.years}>
+                <span/>
+                <div>
+                3
+                </div>
+                <span>years</span>
+              </div>
+            </>
           }
         />
         <WorkCard
@@ -41,6 +64,14 @@ export const Skills = () => {
           isExpanded
           description={
             <div className={styles.years}>
+              <div className={styles.logo}>
+                <Image
+                  src={NodeLogo}
+                  alt="Node Logo"
+                  width={70}
+                  height={50}
+                />
+              </div>
               <span/>
               <div>
               3

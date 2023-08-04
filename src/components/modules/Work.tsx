@@ -16,7 +16,7 @@ export const Work = () => {
           company="Always August Digital"
           companyLink="https://alwaysaugust.co/"
           description={
-            <div>
+            <div className={styles.details}>
               <ul>
                 <li>Implemented responsive ReactJS components following atomic design principles, using methodologies &
                   frameworks like CSS modules, BEM, Bootstrap, and Bulma</li>
@@ -37,7 +37,7 @@ export const Work = () => {
           company="Jupio Labs"
           companyLink="https://www.jupio.io/"
           description={
-            <div>
+            <div className={styles.details}>
               <ul>
                 <li> Increase production efficiency by analysing design patterns and building a component library</li>
                 <li> Improve site efficiency by developing in &quot;mobile first&quot; approach</li>
@@ -52,7 +52,7 @@ maintainability and future scalability</li>
           cardTitle="Software Internship"
           company="Humming Payment Technologies"
           description={
-            <div>
+            <div className={styles.details}>
               <ul>
                 <li> Converted product outlines into technical requirements and framework recommendations, distributed
 details and tasks to developers and monitoring development ensuring features are release on time</li>
