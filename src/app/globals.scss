@@ -2,11 +2,12 @@
 
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 255, 255, 255;
-  --accent-rgb: 173, 216, 230; /* light blue */
-  --accent-glow-rgb: 240, 248, 255; /* alice blue, very light blue */
-  --border-rgb: --foreground-rgb;
+  --foreground-rgb: 0, 0, 0; /* Black text for better readability on a light background */
+  --background-rgb: 255, 255, 255; /* White background */
+  --accent-rgb: 135, 206, 250; /* Sky blue */
+  --accent-glow-rgb: 173, 216, 230; /* Light blue */
+  --border-rgb: 200, 200, 200; /* Light gray border for subtle definition */
+
   --margin: 1rem;
   --radius: 0.5rem;
   --gap: 0.75rem;
