@@ -1,0 +1,10 @@
+.container {
+  border-radius: var(--radius);
+  background-color: rgb(var(--accent-rgb));
+  padding: 1rem;
+  border: 1px solid rgb(var(--border-rgb));
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  position: relative;
+}
